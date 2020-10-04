@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css"/>
+    <title>Title</title>
+</head>
+<body>
+<div class="mainContent">
+    <div class="center item--secondary">
+        <span class="text__caption--20 color--secondary-text__light item--secondary icon-head"><img src="icons/android-icon-48x48.png" alt="icon" style="width: 48px; height: 48px;"><span>Delete History</span></span>
+    </div>
+    <div class="center item--main">
+        <p class="timeDisplay text__display--20" id="timeDisplay"></p>
+        <div class="text__title--10 item--secondary" id="message">Want to delete the history?</div>
+        <div class="selector">
+            <select name="timeSelector" id="timeSelector">
+                <option value="hour">Hour</option>
+                <option value="day">Day</option>
+                <option value="week">Week</option>
+                <option value="biweek">Bi-week</option>
+                <option value="month">Month</option>
+              </select>
+        </div>
+        <div class="">
+            <button class="button--primary item--tertiary reset" id="reset">Delete</button>
+        </div>
+    </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
